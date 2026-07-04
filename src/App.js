@@ -53,11 +53,15 @@ const appRouter=createBrowserRouter([
        
     ],
     errorElement:<Error/>,
+   
   },
 
      
   
-])
+],
+  {
+    basename: "/Swiggy_clone",
+  })
  const root=ReactDOM.createRoot(document.getElementById("root")) 
  root.render(<RouterProvider router={appRouter}/>);
  
