@@ -1,17 +1,22 @@
 {
   "name": "industrypractice",
   "version": "1.0.0",
+  "homepage": "https://priyesh-rj.github.io/Swiggy_clone",
   "description": "this is real project",
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
   },
   "keywords": [],
   "author": "priyesh raj",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.5.0",
+    "gh-pages": "^6.3.0",
     "parcel": "^2.16.4",
     "postcss": "^8.5.15",
     "tailwindcss": "^3.4.17"
