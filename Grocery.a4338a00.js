@@ -1,0 +1,2 @@
+var e=globalThis.parcelRequiredfbe;(0,e.register)("loR3J",function(a,i){Object.defineProperty(a.exports,"__esModule",{value:!0,configurable:!0}),Object.defineProperty(a.exports,"default",{get:()=>o,set:void 0,enumerable:!0,configurable:!0});var n=e("ayMG0"),o=()=>(0,n.jsxs)("div",{children:[(0,n.jsx)("h2",{children:"What is Lazy Loading?"}),(0,n.jsx)("p",{children:"Lazy Loading means loading a component only when it is needed, instead of loading all components at the initial page load."})]})});
+//# sourceMappingURL=Grocery.a4338a00.js.map
